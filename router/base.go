@@ -12,6 +12,7 @@ func InitRoutes() *http.ServeMux {
 
 	// Define routes and their handlers
 	mux.HandleFunc("/api/system", controllers.SystemHandler)
+	mux.HandleFunc("/api/system-surface", controllers.ThirdPartySystemHandler)
 	mux.HandleFunc("/api/process/start", controllers.StartProcessHandler)
 	mux.HandleFunc("/api/process/stop", controllers.StopProcessHandler)
 
