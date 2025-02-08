@@ -1,9 +1,9 @@
 # TaskManager
 
 
-This is a simple service that displays alk the tasks currently runing 
+This is a simple application that displays all the tasks currently runing 
 on your CPU, OS and third party services.
-IT also outputs the CPU metircs of the device it's currently runing on.
+It also outputs the CPU metircs of the device it's currently runing on.
 
 # Installtion
 go mod tidy 
